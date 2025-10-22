@@ -6,7 +6,7 @@ import jakarta.validation.constraints.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "patients")
+@Table(name = "patient")
 public class Patient {
 
     @Id
